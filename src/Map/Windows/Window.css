@@ -1,0 +1,136 @@
+.creationWindow {
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    align-items: center;
+    padding: 2vh;
+    margin-left: auto;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: max-content;
+    max-height: 100%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgb(245, 248, 254);
+    z-index: 2;
+    border-radius: 2vh;
+    border: 0;
+    outline: 0.4vh solid rgba(0, 0, 0, 0.3);
+}
+
+.creationWindow h1 {
+    margin: 0 2rem;
+    padding: 0;
+    font-size: 3.2vh;
+    line-height: 3.2vh;
+}
+
+.creationWindow label {
+    margin: 0;
+    margin-bottom: 1vh;
+    padding: 0;
+    font-size: 1.8vh;
+    line-height: 1.8vh;
+}
+
+.creationWindow button {
+    font-weight: 700;
+    font-size: 1.7vh;
+    line-height: 1.7vh;
+    border-radius: 2vh;
+    background-color: #D9D9D9;
+    border: 0.3vh solid rgba(0, 0, 0, 0.12);
+}
+
+.creationWindow button:disabled {
+    opacity: 0.6;
+}
+
+.infoWindow {
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    align-items: center;
+    padding: 2vh;
+    margin-left: auto;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: max-content;
+    max-height: 25%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgb(245, 248, 254);
+    z-index: 2;
+    border-radius: 2vh;
+    border: 0;
+    outline: 0.4vh solid rgba(0, 0, 0, 0.3);
+}
+
+.infoWindow h1 {
+    margin: 0 2rem;
+    padding: 0;
+    font-size: 3.2vh;
+    line-height: 3.2vh;
+}
+
+.finderBlock {
+    display: flex;
+    box-sizing: inherit;
+    align-items: center;
+    margin-left: auto;
+    margin-right: -12.5vw;
+    margin-top: 2vh;
+    margin-bottom: 0;
+    width: max-content;
+    max-height: max-content;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 50%;
+    z-index: 2;
+    border: none;
+}
+
+.parametersWindow {
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    align-items: center;
+    padding: 2vh;
+    margin-left: auto;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: max-content;
+    max-height: 25%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgb(245, 248, 254);
+    z-index: 2;
+    border-radius: 2vh;
+    border: 0;
+    outline: 0.4vh solid rgba(0, 0, 0, 0.3);
+}
+
+.parametersWindow h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.parametersWindow button {
+    font-weight: 700;
+    font-size: 1.5vh;
+    line-height: 1.7vh;
+    border-radius: 1.5vh;
+    background-color: #D9D9D9;
+    border: 0.3vh solid rgba(0, 0, 0, 0.12);
+}
+
+.parametersWindow button:hover {
+    opacity: 0.8;
+}
+
+.parametersWindow button:disabled {
+    opacity: 0.6;
+}

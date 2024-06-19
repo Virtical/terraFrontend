@@ -1,0 +1,251 @@
+.mode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.modeList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.modeItem {
+    margin: 0 1vh;
+    padding: 0;
+    width: 100%;
+}
+
+.mode .button {
+    padding: 1vh 1.5vh;
+    width: 100%;
+}
+
+.addMarker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 4vh;
+    width: 100%;
+}
+
+.addMarker .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1.5vh;
+    width: 75%;
+}
+
+.addMarker img {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.5rem;
+    width: 2rem;
+    height: 100%;
+}
+
+.addMarker p {
+    font-size: 100%;
+    width: max-content;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 4vh;
+    width: 100%;
+}
+
+.textInput {
+    color: #484848;
+    font-size: 2vh;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    padding: 0 1rem;
+    width: 90%;
+    height: 2.2rem;
+    border: 0.15rem solid rgba(0, 117, 255, 0.4);
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.season {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.seasonList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.seasonItem {
+    margin: 0;
+    padding: 0;
+}
+
+.seasonItem img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 100%;
+}
+
+.seasonItem .button {
+    padding: 1vh 2vh;
+    width: 100%;
+}
+
+.transport {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.transportList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.transportItem {
+    margin: 0;
+    padding: 0;
+}
+
+.transportItem img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 100%;
+}
+
+.transportItem .button {
+    padding: 1vh 2vh;
+    width: 100%;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.timeInput {
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17vh;
+    height: 6vh;
+    border-radius: 2vh;
+    border: 0.2rem solid rgba(0, 0, 0);
+    font-weight: 400;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none !important;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.distance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.controlButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+.controlButtonsList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.controlButtonsItem {
+    margin: 0;
+    padding: 0;
+    width: 45%;
+}
+
+.controlButtons .button {
+    padding: 1.5vh 1vh;
+    width: 100%;
+}
